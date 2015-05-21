@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ch_unige_idsi15_Marker" items="${markers}" z="SLl495u7vNXB1lGrvnMO4ZNR9T4=">
+        <table:table data="${markers}" id="l_ch_unige_idsi15_Marker" path="/markers" z="P8K5x3aSJn+WU+0Q9as9q5cgAG8=">
+            <table:column id="c_ch_unige_idsi15_Marker_qrCodeId" property="qrCodeId" z="vo3o7aoU+BXXlkf5e5sa+dV4QPo="/>
+            <table:column id="c_ch_unige_idsi15_Marker_longitude" property="longitude" z="aDPfYqTgKnlId/lKCA9nLvFn508="/>
+            <table:column id="c_ch_unige_idsi15_Marker_latitude" property="latitude" z="g6o0oEPovf+skZX8L/hd8ZRp6dg="/>
+            <table:column id="c_ch_unige_idsi15_Marker_description" property="description" z="yiKTW7DVMRu7wd7yaJwYMSBj2CE="/>
+        </table:table>
+    </page:list>
+</div>

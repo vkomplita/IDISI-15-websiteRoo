@@ -1,0 +1,16 @@
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log opened at 2015-05-09 14:05:26
+project --topLevelPackage ch.unige.idsi15 --projectName swisstoolweb --java 7 --packaging JAR
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log closed at 2015-05-09 14:05:35
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log opened at 2015-05-09 14:09:54
+jpa setup --database MYSQL --provider HIBERNATE --password bb35e718 --userName b76c1913ef8b0d --databaseName ad_28963a515d51815 --hostName us-cdbr-iron-east-02.cleardb.net
+entity jpa --class ch.unige.idsi15.marker
+field string --fieldName qrCodeId
+field number --type java.lang.Double --fieldName longitude
+field number --type java.lang.Double --fieldName latitude
+field string --fieldName description
+controller all --package ch.unige.idsi15.web
+web mvc all --package ch.unige.idsi15.web
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log opened at 2015-05-16 12:52:30
+security setup
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log closed at 2015-05-16 18:24:31
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log opened at 2015-05-17 15:11:33

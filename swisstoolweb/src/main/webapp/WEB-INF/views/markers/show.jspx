@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ch_unige_idsi15_Marker" object="${marker}" path="/markers" z="YrLpQFrQQppv/Vwfuf5EHBP7DoE=">
+        <field:display field="qrCodeId" id="s_ch_unige_idsi15_Marker_qrCodeId" object="${marker}" z="P48uq9yNOXdAsiqjRmSB/u2x8HE="/>
+        <field:display field="longitude" id="s_ch_unige_idsi15_Marker_longitude" object="${marker}" z="b1rjhseoGW3vLeq4HpmIKm28IpI="/>
+        <field:display field="latitude" id="s_ch_unige_idsi15_Marker_latitude" object="${marker}" z="3bJA75HpmvvsnMo8cMYTu6NLHdY="/>
+        <field:display field="description" id="s_ch_unige_idsi15_Marker_description" object="${marker}" z="jgIU6ti80R4iVqAE0UhXc1qMp4I="/>
+    </page:show>
+</div>
